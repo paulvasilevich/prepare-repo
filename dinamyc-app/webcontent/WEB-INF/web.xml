@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+
+	<display-name>dynamicWebDemo</display-name>
+
+	<welcome-file-list>
+		<welcome-file>testTags.jsp</welcome-file>
+	</welcome-file-list>
+<!--<error-page>-->
+	<!--<error-code>404</error-code>-->
+	<!--&lt;!&ndash;<location>/404.html</location>&ndash;&gt;-->
+	<!--<location> /automoto.room</location>-->
+<!--</error-page>-->
+
+	<!--<welcome-file-list>-->
+		<!--<welcome-file>/shop</welcome-file>-->
+	<!--</welcome-file-list>-->
+	<!--<welcome-file-list>-->
+		<!--<welcome-file>sum.html</welcome-file>-->
+	<!--</welcome-file-list>-->
+
+	<!--<servlet>-->
+		<!--<servlet-name>HandleInputServlet</servlet-name>-->
+		<!--<servlet-class>com.belhard.servlets.HandleInputServlet</servlet-class>-->
+	<!--</servlet>-->
+
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>HandleInputServlet</servlet-name>-->
+		<!--<url-pattern>/handleServlet.do</url-pattern>-->
+	<!--</servlet-mapping>-->
+
+	<!--<servlet>-->
+		<!--<servlet-name>MyRegistrationServlet</servlet-name>-->
+		<!--<servlet-class>com.belhard.servlets.MyRegistrationServlet</servlet-class>-->
+	<!--</servlet>-->
+
+	<!--<servlet-mapping>-->
+		<!--<servlet-name>MyRegistrationServlet</servlet-name>-->
+		<!--<url-pattern>/registration.do</url-pattern>-->
+	<!--</servlet-mapping>-->
+</web-app>

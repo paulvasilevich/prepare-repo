@@ -1,0 +1,33 @@
+body{
+    background-color: #74839d
+
+
+}
+
+h1{
+
+    color: #d6e294;
+    padding-top: 1cm;
+}
+
+input{
+
+    border:2px solid #e296b6 ;
+
+    height: 10px ;
+    border-radius:25px;
+
+
+    padding:10px 5px 15px 20px
+
+    ;
+    width: 125px;
+    margin-left: 5px;
+    /*background-color: #e296b6*/
+
+}
+
+.InputText{
+    color: #d6e294;
+    margin-left: 20px;
+}

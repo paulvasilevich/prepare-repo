@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>ownTag</short-name>
+    <uri>WEB-INF/tags/implicit.tld</uri>
+    <!--<info> My own created tag libriry</info>-->
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+    <tag>
+        <name>dtFmt</name>
+        <tag-class>com.belhard.jstl.DateFormatter</tag-class>
+        <body-content>empty</body-content>
+        <!--<info>date formatter print out now date in the special format</info>-->
+        <attribute>
+            <name>format</name>
+            <required>true</required>
+            <rtexprvalue>false</rtexprvalue>
+            <!--<description>Print out today date with curent format</description>/-->
+
+        </attribute>
+    </tag>
+    <tag>
+        <name>repeat</name>
+        <tag-class>com.belhard.jstl.CountPrinter</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>countInt</name>
+            <required> true </required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>int</type>
+        </attribute>
+    </tag>
+    <tag>
+        <name>bodyRgstr</name>
+        <tag-class>com.belhard.jstl.Register</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>register</name>
+            <required> true </required>
+            <rtexprvalue>false</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <name>error</name>
+        <tag-class>com.belhard.jstl.Error</tag-class>
+        <body-content>scriptless</body-content>
+        <attribute>
+            <name>code</name>
+            <required> false </required>
+            <rtexprvalue>true</rtexprvalue>
+            <type>java.lang.Integer</type>
+        </attribute>
+        <attribute>
+            <name>color</name>
+            <required> false </required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>
